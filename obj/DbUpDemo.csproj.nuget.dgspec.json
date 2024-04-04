@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\JeffreyAlzate\\OneDrive\\Documents\\Voluntary Works\\Accouting System\\DbUp\\DbUpDemo\\DbUpDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JeffreyAlzate\\OneDrive\\Documents\\Voluntary Works\\Accouting System\\DbUp\\DbUpDemo\\DbUpDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JeffreyAlzate\\OneDrive\\Documents\\Voluntary Works\\Accouting System\\DbUp\\DbUpDemo\\DbUpDemo.csproj",
+        "projectName": "DbUpDemo",
+        "projectPath": "C:\\Users\\JeffreyAlzate\\OneDrive\\Documents\\Voluntary Works\\Accouting System\\DbUp\\DbUpDemo\\DbUpDemo.csproj",
+        "packagesPath": "C:\\Users\\JeffreyAlzate\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JeffreyAlzate\\OneDrive\\Documents\\Voluntary Works\\Accouting System\\DbUp\\DbUpDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JeffreyAlzate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DbUp": {
+              "target": "Package",
+              "version": "[5.0.40, )"
+            },
+            "dbup-mysql": {
+              "target": "Package",
+              "version": "[5.0.44, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
